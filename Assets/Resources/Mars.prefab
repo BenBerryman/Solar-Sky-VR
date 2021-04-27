@@ -46,6 +46,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 30
   RotationType: 1
+  Counterclockwise: 0
 --- !u!1 &5575000206149014482
 GameObject:
   m_ObjectHideFlags: 0
@@ -92,6 +93,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 30
   RotationType: 1
+  Counterclockwise: 0
 --- !u!1 &6240332366443683897
 GameObject:
   m_ObjectHideFlags: 0
@@ -118,13 +120,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6240332366443683897}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: -0.4898, y: 0, z: 0}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_Children: []
   m_Father: {fileID: 9136801293249458029}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!33 &477609096779149761
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -151,7 +153,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 4510572831591370662, guid: e8ce04e0f07e4451e8da32f443f6ad05, type: 3}
+  - {fileID: 2100000, guid: e24200afbfcb46c4bb4ed561e2201184, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -186,6 +188,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 9
   RotationType: 0
+  Counterclockwise: 0
 --- !u!1 &9136801293249458028
 GameObject:
   m_ObjectHideFlags: 0
@@ -235,6 +238,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 6
   RotationType: 0
+  Counterclockwise: 0
 --- !u!1001 &3367946048324610492
 PrefabInstance:
   m_ObjectHideFlags: 0

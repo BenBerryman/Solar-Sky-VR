@@ -48,6 +48,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   RotationType: 0
+  Counterclockwise: 0
 --- !u!1 &5476595840087964800
 GameObject:
   m_ObjectHideFlags: 0
@@ -107,7 +108,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 6306179399515342484, guid: e8ce04e0f07e4451e8da32f443f6ad05, type: 3}
+  - {fileID: 2100000, guid: 4c16cd26693548c41874caeec32dcefb, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -142,6 +143,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   RotationType: 0
+  Counterclockwise: 0
 --- !u!1 &8413026245282854154
 GameObject:
   m_ObjectHideFlags: 0
@@ -188,6 +190,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 30
   RotationType: 1
+  Counterclockwise: 0
 --- !u!1001 &4045917420978339058
 PrefabInstance:
   m_ObjectHideFlags: 0
