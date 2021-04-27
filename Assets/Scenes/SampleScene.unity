@@ -507,10 +507,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2159229614278802584, guid: ba5143f3b5cc2bd4cb8f55bbb5955404,
+        type: 3}
+      propertyPath: m_Name
+      value: Select Saturn
+      objectReference: {fileID: 0}
+    - target: {fileID: 2314829363716027380, guid: ba5143f3b5cc2bd4cb8f55bbb5955404,
+        type: 3}
+      propertyPath: m_Name
+      value: Select Uranus
+      objectReference: {fileID: 0}
     - target: {fileID: 2647188456311441327, guid: ba5143f3b5cc2bd4cb8f55bbb5955404,
         type: 3}
       propertyPath: m_Name
       value: Menu
+      objectReference: {fileID: 0}
+    - target: {fileID: 3483686031797125794, guid: ba5143f3b5cc2bd4cb8f55bbb5955404,
+        type: 3}
+      propertyPath: m_Name
+      value: Select Venus
       objectReference: {fileID: 0}
     - target: {fileID: 3483686032418181932, guid: ba5143f3b5cc2bd4cb8f55bbb5955404,
         type: 3}
@@ -526,6 +541,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Mesh
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3483686033429899352, guid: ba5143f3b5cc2bd4cb8f55bbb5955404,
+        type: 3}
+      propertyPath: m_Name
+      value: Select Sun
+      objectReference: {fileID: 0}
+    - target: {fileID: 3483686033583588986, guid: ba5143f3b5cc2bd4cb8f55bbb5955404,
+        type: 3}
+      propertyPath: m_Name
+      value: Select Mercury
+      objectReference: {fileID: 0}
+    - target: {fileID: 3853501532578759215, guid: ba5143f3b5cc2bd4cb8f55bbb5955404,
+        type: 3}
+      propertyPath: m_Name
+      value: Select Solar System
+      objectReference: {fileID: 0}
+    - target: {fileID: 4129333719743941232, guid: ba5143f3b5cc2bd4cb8f55bbb5955404,
+        type: 3}
+      propertyPath: m_Name
+      value: Select Mars
       objectReference: {fileID: 0}
     - target: {fileID: 4129333720230779902, guid: ba5143f3b5cc2bd4cb8f55bbb5955404,
         type: 3}
@@ -587,10 +622,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6317926514828547992, guid: ba5143f3b5cc2bd4cb8f55bbb5955404,
+        type: 3}
+      propertyPath: m_Name
+      value: Select Jupiter
+      objectReference: {fileID: 0}
     - target: {fileID: 6317926515415975446, guid: ba5143f3b5cc2bd4cb8f55bbb5955404,
         type: 3}
       propertyPath: m_Mesh
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6545848468085766261, guid: ba5143f3b5cc2bd4cb8f55bbb5955404,
+        type: 3}
+      propertyPath: m_Name
+      value: Select Neptune
+      objectReference: {fileID: 0}
+    - target: {fileID: 7311118604902254474, guid: ba5143f3b5cc2bd4cb8f55bbb5955404,
+        type: 3}
+      propertyPath: m_Name
+      value: Select Earth
       objectReference: {fileID: 0}
     - target: {fileID: 7311118605489690116, guid: ba5143f3b5cc2bd4cb8f55bbb5955404,
         type: 3}
