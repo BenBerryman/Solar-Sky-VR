@@ -7,6 +7,11 @@ public class OrbitalMotion : MonoBehaviour
     public float speed;
     public enum rotation {World, Self};
     public rotation RotationType;
+    [Header("Orbital Axes")]
+    public bool X;
+    public bool Y;
+    public bool Z;
+    private float rotateX, rotateY, rotateZ;
     public bool Counterclockwise;
 
     // Start is called before the first frame update
@@ -16,16 +21,20 @@ public class OrbitalMotion : MonoBehaviour
         if (Counterclockwise) {
             speed *= -1;
         }
+        rotateX = (X) ? speed : 0;
+        rotateY = (Y) ? speed : 0;
+        rotateZ = (Z) ? speed : 0;
     }
 
     // Update is called once per frame
     void Update()
     {
         if (RotationType == rotation.World) {
-            transform.Rotate(0, speed, 0, Space.World);
+            
+            transform.Rotate(rotateX, rotateY, rotateZ, Space.World);
         }
         else {
-            transform.Rotate(0, speed, 0, Space.Self);
+            transform.Rotate(rotateX, rotateY, rotateZ, Space.Self);
         }
     }
 }
