@@ -201,6 +201,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: UranusIndividual
       objectReference: {fileID: 0}
+    - target: {fileID: 5232602139425723443, guid: 063277f375a3a95408f2c0348b4f770a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c5d9171d91a629c4cb147735b191281f, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 063277f375a3a95408f2c0348b4f770a, type: 3}
 --- !u!4 &8300834074240902611 stripped
