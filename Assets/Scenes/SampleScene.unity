@@ -3498,13 +3498,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7638146452880579780, guid: 58f2041613c82b540bcc56ea9245701e,
         type: 3}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7638146452880579780, guid: 58f2041613c82b540bcc56ea9245701e,
+        type: 3}
       propertyPath: ShapeModule.alignToDirection
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7638146452880579780, guid: 58f2041613c82b540bcc56ea9245701e,
         type: 3}
       propertyPath: InitialModule.startSize.scalar
-      value: 2.2
+      value: 2.4
       objectReference: {fileID: 0}
     - target: {fileID: 7638146452880579780, guid: 58f2041613c82b540bcc56ea9245701e,
         type: 3}
