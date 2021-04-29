@@ -94,6 +94,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
+  RotationType: 0
+  X: 0
+  Y: 1
+  Z: 0
+  Counterclockwise: 0
 --- !u!1 &7666182730460138461
 GameObject:
   m_ObjectHideFlags: 0
@@ -136,8 +141,8 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 1, g: 0.798349, b: 0.4481132, a: 1}
-  m_Intensity: 2.4
+  m_Color: {r: 1, g: 0.78730094, b: 0.2216981, a: 1}
+  m_Intensity: 2.7
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
