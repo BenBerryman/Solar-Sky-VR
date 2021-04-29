@@ -2055,6 +2055,31 @@ PrefabInstance:
       propertyPath: m_SpotAngle
       value: 43.937363
       objectReference: {fileID: 0}
+    - target: {fileID: 4080592695891579516, guid: 58f2041613c82b540bcc56ea9245701e,
+        type: 3}
+      propertyPath: ShapeModule.radiusThickness
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4080592695891579516, guid: 58f2041613c82b540bcc56ea9245701e,
+        type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4080592695891579516, guid: 58f2041613c82b540bcc56ea9245701e,
+        type: 3}
+      propertyPath: InitialModule.startSize.minScalar
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4080592695891579516, guid: 58f2041613c82b540bcc56ea9245701e,
+        type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 4080592695891579516, guid: 58f2041613c82b540bcc56ea9245701e,
+        type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key0.g
+      value: 0.007843138
+      objectReference: {fileID: 0}
     - target: {fileID: 4977318628755453249, guid: 58f2041613c82b540bcc56ea9245701e,
         type: 3}
       propertyPath: Y
