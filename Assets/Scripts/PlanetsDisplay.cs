@@ -6,10 +6,12 @@ public class PlanetsDisplay : MonoBehaviour
 {
     private int planetNumber = 0;
     public GameObject[] planetScenes;
+    private GameObject currentActivePlanet;
+    public GameObject solarSystem;
     // Start is called before the first frame update
     void Start()
     {
-        for (int i = 1; i < planetScenes.Length; i++)
+        for (int i = 0; i < planetScenes.Length; i++)
         {
             planetScenes[i].SetActive(false);
         }
@@ -75,7 +77,27 @@ public class PlanetsDisplay : MonoBehaviour
         /*toggleImageBackwards(planetNumber);
         apimanager.requestPlanetInformation(planetNumber);*/
     }
-    public void changeToCorrectPlanet() {
-        Debug.Log("scene should update to planet selected from menu");
+    public void changeToCorrectPlanet(int index) {
+        if (currentActivePlanet == null)
+        {
+            solarSystem.SetActive(false);
+            planetScenes[index].SetActive(true);
+            currentActivePlanet = planetScenes[index];
+        }
+        else
+        {
+            currentActivePlanet.SetActive(false);
+            planetScenes[index].SetActive(true);
+            currentActivePlanet = planetScenes[index];
+        }
     }
+
+    public void showSolarSystem() {
+        if (currentActivePlanet != null) {
+            currentActivePlanet.SetActive(false);
+        }
+        solarSystem.SetActive(true);
+        currentActivePlanet = null;
+    }
+
 }
