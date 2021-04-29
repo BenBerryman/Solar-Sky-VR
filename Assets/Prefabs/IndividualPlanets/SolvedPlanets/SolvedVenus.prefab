@@ -1037,6 +1037,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7063631189933581884, guid: d487dae5ee3fbb649a3f2fcf08f17e38,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.19536318
+      objectReference: {fileID: 0}
+    - target: {fileID: 7063631189933581884, guid: d487dae5ee3fbb649a3f2fcf08f17e38,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.12995355
+      objectReference: {fileID: 0}
     - target: {fileID: 7067034726258791782, guid: d487dae5ee3fbb649a3f2fcf08f17e38,
         type: 3}
       propertyPath: m_IsActive
@@ -1047,15 +1057,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: FunFact Tooltip
       objectReference: {fileID: 0}
+    - target: {fileID: 7170625491108518318, guid: d487dae5ee3fbb649a3f2fcf08f17e38,
+        type: 3}
+      propertyPath: fontSize
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 7170625491108518318, guid: d487dae5ee3fbb649a3f2fcf08f17e38,
+        type: 3}
+      propertyPath: backgroundPadding.y
+      value: 0.11
+      objectReference: {fileID: 0}
     - target: {fileID: 7170724274358583730, guid: d487dae5ee3fbb649a3f2fcf08f17e38,
         type: 3}
       propertyPath: endPoint.position.x
-      value: -0.32430893
+      value: -0.32246348
       objectReference: {fileID: 0}
     - target: {fileID: 7170724274358583730, guid: d487dae5ee3fbb649a3f2fcf08f17e38,
         type: 3}
       propertyPath: endPoint.position.y
-      value: -0.23300499
+      value: -0.20233987
       objectReference: {fileID: 0}
     - target: {fileID: 7186992771901433768, guid: d487dae5ee3fbb649a3f2fcf08f17e38,
         type: 3}
@@ -1075,12 +1095,12 @@ PrefabInstance:
     - target: {fileID: 7186992771901433768, guid: d487dae5ee3fbb649a3f2fcf08f17e38,
         type: 3}
       propertyPath: m_Positions.Array.data[1].x
-      value: -0.32430893
+      value: -0.32246348
       objectReference: {fileID: 0}
     - target: {fileID: 7186992771901433768, guid: d487dae5ee3fbb649a3f2fcf08f17e38,
         type: 3}
       propertyPath: m_Positions.Array.data[1].y
-      value: -0.23300499
+      value: -0.20233987
       objectReference: {fileID: 0}
     - target: {fileID: 7186992771901433768, guid: d487dae5ee3fbb649a3f2fcf08f17e38,
         type: 3}
