@@ -6,18 +6,20 @@ using UnityEngine.SceneManagement;
 using UnityEngine.EventSystems;
 using UnityEngine.Networking;
 using SimpleJSON;
+using TMPro;
+
 
 public class APIManager : MonoBehaviour
 {
 
     private string URL = "https://api.le-systeme-solaire.net/rest/bodies/";
-    public Text Name;
-    public Text Mass;
-    public Text Radius;
-    public Text DaysInYear;
-    public Text HoursInDay;
-    public Text Fact;
-    public Text Composition;
+    //public TextMeshPro Name;
+    public TextMeshPro Mass;
+    public TextMeshPro Radius;
+    public TextMeshPro DaysInYear;
+    public TextMeshPro HoursInDay;
+    public TextMeshPro Fact;
+    public TextMeshPro Composition;
 
     private string sunID = "soleil";
     private string mercuryID = "mercure";
@@ -39,13 +41,14 @@ public class APIManager : MonoBehaviour
 
     private void Start()
     {
-        Debug.Log("started");
-        Name = GameObject.Find("planetName").GetComponent<Text>();
-        Mass = GameObject.Find("planetMass").GetComponent<Text>();
+
+        //Name = GameObject.Find("planetName").GetComponent<Text>();
+       /* Mass = GameObject.Find("planetMass").GetComponent<Text>();
         Radius = GameObject.Find("planetRadius").GetComponent<Text>();
         DaysInYear = GameObject.Find("planetDaysInYear").GetComponent<Text>();
         HoursInDay = GameObject.Find("planetHoursInDay").GetComponent<Text>();
-        Composition = GameObject.Find("planetComposition").GetComponent<Text>();
+        Composition = GameObject.Find("planetComposition").GetComponent<Text>();*/
+
         // planetName = "soleil";
         // StartCoroutine(getPlanetInformation(planetName));
         // StartCoroutine(GetPlanetFacts("Sun"));
@@ -122,7 +125,7 @@ public class APIManager : MonoBehaviour
         float planetOrbit = planetInfo["sideralOrbit"];
         float planetRotation = planetInfo["sideralRotation"];
 
-        Name.text = "Name                        " + planetName;
+        //Name.text = "Name                        " + planetName;
         Mass.text = "Mass                         " + cleanDecimal(planetMass) + " x 10^" + planetMassExponent + " kg";
         Radius.text = "Radius                     " + cleanDecimal(planetRadius) + " km";
         DaysInYear.text = "Earth Days in Year           " + cleanHoursAndDays(planetOrbit) + " Days";
@@ -235,9 +238,9 @@ public class APIManager : MonoBehaviour
 
     public void requestPlanetInformation(int planetNumber)
     {
-        if (planetNumber == 0)
+        /*if (planetNumber == 0)
         {
-            Name.text = "Name";
+           // Name.text = "Name";
             Mass.text = "Mass";
             Radius.text = "Radius";
             DaysInYear.text = "Earth Days in Year";
@@ -246,11 +249,11 @@ public class APIManager : MonoBehaviour
             Composition.text = "Body Composition";
         }
         else
-        {
-            int trueNumber = planetNumber - 1;
+        {*/
+            int trueNumber = planetNumber;
             planetName = planets[trueNumber];
             StartCoroutine(getPlanetInformation(planetName));
-        }
+        //}
 
     }
 

@@ -8,6 +8,7 @@ public class PlanetsDisplay : MonoBehaviour
     public GameObject[] planetScenes;
     private GameObject currentActivePlanet;
     public GameObject solarSystem;
+    public APIManager[] apimanager;
     // Start is called before the first frame update
     void Start()
     {
@@ -90,6 +91,7 @@ public class PlanetsDisplay : MonoBehaviour
             planetScenes[index].SetActive(true);
             currentActivePlanet = planetScenes[index];
         }
+        apimanager[index].requestPlanetInformation(index+1);
     }
 
     public void showSolarSystem() {
