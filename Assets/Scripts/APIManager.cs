@@ -126,10 +126,10 @@ public class APIManager : MonoBehaviour
         float planetRotation = planetInfo["sideralRotation"];
 
         //Name.text = "Name                        " + planetName;
-        Mass.text = "Mass                         " + cleanDecimal(planetMass) + " x 10^" + planetMassExponent + " kg";
-        Radius.text = "Radius                     " + cleanDecimal(planetRadius) + " km";
-        DaysInYear.text = "Earth Days in Year           " + cleanHoursAndDays(planetOrbit) + " Days";
-        HoursInDay.text = "Hours in a day             " + cleanHoursAndDays(planetRotation) + " Hours";
+        Mass.text = "Mass: " + cleanDecimal(planetMass) + " x 10^" + planetMassExponent + " kg";
+        Radius.text = "Radius: " + cleanDecimal(planetRadius) + " km";
+        DaysInYear.text = "Earth Days in Year: " + cleanHoursAndDays(planetOrbit) + " Days";
+        HoursInDay.text = "Hours in a day: " + cleanHoursAndDays(planetRotation) + " Hours";
 
 
         string pname = ConvertBackToEnglish(targetID);
@@ -152,7 +152,7 @@ public class APIManager : MonoBehaviour
 
 
 
-            Composition.text = "Body Composition             " +planetLandType;
+            Composition.text = "Body Composition: " +planetLandType;
             Debug.Log("Planet Land Type: " + planetLandType);
 
             // Set the text feilds to the planet data when we get it.
