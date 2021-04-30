@@ -2112,7 +2112,7 @@ PrefabInstance:
     - target: {fileID: 4977318629116037384, guid: 58f2041613c82b540bcc56ea9245701e,
         type: 3}
       propertyPath: speed
-      value: 9
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4977318629182842009, guid: 58f2041613c82b540bcc56ea9245701e,
         type: 3}
@@ -2332,7 +2332,7 @@ PrefabInstance:
     - target: {fileID: 7638146452880579780, guid: 58f2041613c82b540bcc56ea9245701e,
         type: 3}
       propertyPath: ShapeModule.radiusThickness
-      value: 1.0000
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7638146452880579780, guid: 58f2041613c82b540bcc56ea9245701e,
         type: 3}
@@ -3214,7 +3214,7 @@ PrefabInstance:
     - target: {fileID: 1281869435342079773, guid: 275b22eb7b3a1c142a856131a632373c,
         type: 3}
       propertyPath: m_Positions.Array.data[1].y
-      value: -0.10600498
+      value: -0.07600498
       objectReference: {fileID: 0}
     - target: {fileID: 1281869435342079773, guid: 275b22eb7b3a1c142a856131a632373c,
         type: 3}
